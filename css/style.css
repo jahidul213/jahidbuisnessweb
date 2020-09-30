@@ -1,0 +1,330 @@
+body {
+    font-family: Lato,Arial,sans-serif;
+    font-size: 14px;
+}
+.carousel-item {
+    height: 90vh;
+    background-size: 100% 100%;
+}
+.content-text {
+    background-color: #001788;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 6px;
+	position: fixed;
+    width: 100%;
+    overflow: hidden;
+    z-index: 99;
+}
+#navbar {
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    z-index: 99;
+    padding-top: 46px;
+}
+#navbar {
+    padding-top: 0px;
+}
+.navbar ul li {
+    font-size: 12px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.navbar-dark .navbar-nav .nav-item active {
+    color: green!important;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white !important;
+}
+/* homepage section */
+#homepage {
+	background-image:url("../image/home.jpg");
+	background-size:100% 100%;
+	height:600px; 
+	width:100%;
+}
+
+.col-6 {
+    padding-left: 200px;
+}
+/* about us */
+.col-sm-4 {
+	 /*! margin-top: -77px; */
+}
+/* services */
+.col-sm-6 img {
+    height: 333px;
+    border-radius: 5px;
+}
+#services {
+    margin-top: 162px;
+    text-transform: capitalize;
+}
+.col-sm-6 h1 {
+    font-size: 32px;
+}
+/* pages */
+#Pages {
+    background-color: #e7e7e7;
+    margin-top: 188px;
+}
+.pagetext {
+    text-align: center;
+}
+.col-sm-6 h1 i{
+	color: #de697e;
+}
+/* project */
+
+#project {
+    background-image: url("../image/office.jpg");
+    background-size: 100% 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	padding-bottom:100px;
+}
+.row i {
+}
+.projecttext {
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+    font-size: 16px;
+    padding-top: 44px;
+}
+#project .col-sm-4 {
+    /*! padding-top: 21px; */
+    /*! color: white; */
+    /*! text-align: center; */
+}
+.media-body h5 {
+}
+
+.content h6 {
+    margin-top: 100px;
+    border: 1px solid;
+    border-radius: 5px;
+    color: white;
+}
+/* blog section*/
+
+/* #blog img {
+    height: 350px;
+    width: 100%;
+    padding-top: 83px;
+} */
+.Portfolio-wrap {
+  position: relative;
+  width: 100%;
+}
+
+.portfolio-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(88, 113, 109, 0.6);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.Portfolio-wrap:hover .portfolio-info {
+  height: 100%;
+}
+
+.portfolio-info h4 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.blogtext {
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 50px;
+}
+.blogtext h1 {
+    font-size: 32px;
+}
+/* contact section*/
+#contact {
+    background-color: #eee;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-bottom: 70px;
+}
+.conacttext {
+    text-align: center;
+    padding-top: 70px;
+    text-transform: capitalize;
+    margin-bottom: 38px;
+}
+#contact .row {
+    padding-top: 16px;
+}
+#contact .row {
+    padding-top: 40px;
+}
+
+
+
+
+
+/* clients section*/
+.clienttext {
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 65px;
+}
+
+#clients img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+#clients .row {
+    margin-top: 100px;
+}
+/* team section*/
+#team {
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 107px;
+    background-color: #eee;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+/* agency section*/
+#agency .btn {
+    float: right;
+    margin-top: -68px;
+    /*! margin-right: 4px; */
+}
+.col-sm-12 h1 {
+    font-size: 30px;
+}
+
+.col-2 {
+    width: 20%;
+    float: left;
+}
+/* contact section*/
+.jumbotron {
+background: #358CCE;
+color: #FFF;
+border-radius: 0px;
+}
+.jumbotron-sm { 
+	padding-top: 24px;
+	padding-bottom: 24px; }
+.jumbotron small {
+color: #FFF;
+}
+.h1 small {
+font-size: 24px;
+}
+#btnContactUs {
+    font-size: 13px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.col-md-8 {
+    background-color: #DDD;
+    border-radius: 5px;
+}
+/* touch section*/
+#touch {
+    background-image: url("../image/office.jpg");
+    background-size: 100% 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    margin-top: 40px;
+}
+#touch .row {
+    color: white;
+  
+}
+#touch .col-sm-4 {
+
+}
+#touch .content h5 {
+    font-size: 14px;
+    margin-left: 27px;
+}
+#touch .col-sm-2 p {
+    margin-left: 27px;
+}
+#touch .col-sm-4 p {
+    margin-left: 27px;
+}
+
+
+			/*footer section*/
+footer {
+    background-color: #eee;
+    padding: 58px;
+    padding-top: 29px;
+}
+footer p {
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+#copyright {
+    float: left;
+    color: black;
+    margin: auto 12px;
+    font-size: 21px;
+    text-transform: capitalize;
+}
+#social{
+	float: right;;
+}
+
+#social ul {
+	list-style: none;
+}
+
+#social ul li {
+	float: left;
+	text-align:center;
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    line-height: 29px;
+    margin-right: 28px;
+	
+}
+#social ul li a {
+    color: blue;
+    font-size: 14px;
+}
+		 /* --- top to button --- */
+#upper {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    background-color: red;
+    height: 39px;
+    width: 40px;
+    text-align: center;
+    padding-top: 10px;
+    display: none;
+    border-radius: 50px;
+}
+#upper i {
+    color: wheat;
+    font-size: 20px;
+}
